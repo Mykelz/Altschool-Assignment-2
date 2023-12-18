@@ -186,7 +186,7 @@ body {
     }
     .flex-container{
         display: block;
-        width: auto;
+        max-width: 300px;
         height: auto;
         align-items: center;
     }
@@ -196,9 +196,9 @@ body {
         
     }
     .form .input-box{
-        padding-bottom: 30px;
+        padding: 20px;
         height: 45px;
-        width: auto;
+        width: 100%;
         margin: auto;
     }
     .form .input-box button{

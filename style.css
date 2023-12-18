@@ -174,10 +174,9 @@ body {
     }
     .flex-container{
         display: block;
-        width: 300px;
+        max-width: 300px;
         height: auto;
         align-items: center;
-        margin: auto;
     }
     .form .column{
         display: block;

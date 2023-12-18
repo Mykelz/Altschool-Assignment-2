@@ -39,20 +39,20 @@ body {
 }
 
 
-.form .input-box-A{
-    width: 100%;
-    margin-top: 10px;   
-}
-
-.form .input-box-B{
-    width: 100%;
-    margin-top: 20px;   
-}
-
-.form .input-box-A select{
+.form .input-box .activity{
     position: relative;
     height: 45px;
     width: 540px;
+    padding: 0 10px;
+    margin-top: 5px;
+    outline-color: rgb(42, 188, 188);
+
+}
+
+.form .input-box .password{
+    position: relative;
+    height: 45px;
+    width: 515px;
     padding: 0 10px;
     margin-top: 5px;
     outline-color: rgb(42, 188, 188);
@@ -70,18 +70,6 @@ body {
     color:  #FFFFFF;
     background-color:  rgb(42, 188, 188);
 
-}
-.form .input-box-A label {
-    font-weight: bold;
-}
-
-.form .input-box-A input{
-    position: relative;
-    height: 45px;
-    width: 515px;
-    padding: 0 10px;
-    margin-top: 5px;
-    outline-color: rgb(42, 188, 188);
 }
 
 .input-box label {
@@ -189,6 +177,7 @@ body {
         max-width: 300px;
         height: auto;
         align-items: center;
+        margin: auto;
     }
     .form .column{
         display: block;
@@ -201,9 +190,23 @@ body {
         width: 100%;
         margin: auto;
     }
-    .form .input-box button{
-        width: auto;
+    .form .input-box .activity{
+        padding: 20px;
+        height: 30px;
+        width: 88%;
         margin: auto;
+    }
+    .form .input-box .password{
+        padding: 20px;
+        height: 0px;
+        width: 73%;
+        margin: auto;
+    }
+    .form .input-box button{
+        width: 88%;
+        height: 48px;
+        margin: auto;
+
     }
     .box-one{
         margin: auto;

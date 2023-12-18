@@ -198,11 +198,12 @@ body {
     .form .input-box{
         padding: 20px;
         height: 45px;
-        width: 100%;
+        width: auto;
         margin: auto;
     }
     .form .input-box button{
-        width: 91%;
+    
+        width: auto;
         margin: auto;
     }
     .box-one{

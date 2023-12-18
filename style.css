@@ -11,7 +11,7 @@ body {
 
 .container{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
 }
 
 .flex-container {

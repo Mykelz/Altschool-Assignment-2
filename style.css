@@ -198,26 +198,12 @@ body {
     .form .input-box{
         padding: 20px;
         height: 45px;
-        width: 260px;
+        width: 100%;
         margin: auto;
     }
-    .form .input-box-A select{
-        width: 260px;
-        margin: auto;
-
-    }
-
     .form .input-box button{
-        width: 260px;
+        width: 91%;
         margin: auto;
-    }
-    .form .input-box-B .footer{
-        text-align: center;
-    }
-    .form .input-box-A input{
-        width: 50%;
-        margin: auto;
-
     }
     .box-one{
         margin: auto;

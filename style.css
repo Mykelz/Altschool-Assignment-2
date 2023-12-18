@@ -210,7 +210,7 @@ body {
         align-items: center;
     }
     #header-p{
-        width: 427px;
+        width: auto;
         height: 50px;
         font-weight: 300px;
         margin-left: 22px;

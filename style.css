@@ -196,13 +196,12 @@ body {
         
     }
     .form .input-box{
-        padding: 20px;
+        padding-bottom: 30px;
         height: 45px;
         width: auto;
         margin: auto;
     }
     .form .input-box button{
-    
         width: auto;
         margin: auto;
     }
